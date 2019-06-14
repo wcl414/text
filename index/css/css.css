@@ -1,0 +1,382 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: white0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1600px;
+    background: #000000;
+    font-family: 'Microsoft Yahei';
+}
+.header{
+	width: 100%;
+	height: 90px;
+	background: #333333;
+}
+.nav-header{
+	margin-left:16%;
+	width: 1200px;
+	height: 90px;
+}
+.nav-right{
+	font-size: 15px;
+	float: right;
+}
+.nav-right li{
+	list-style: none;
+	padding: 32px;
+	float: left;
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+	color: #B2B2B2;
+}
+.border-btm{
+	position: fixed;
+	top: 87px;
+	overflow: hidden;
+	left: 880px;
+	width: 55px;
+	position: 0.8;
+	border: 1.2px solid ghostwhite;
+}
+.nav-focus{
+	background: #333333;
+    position: absolute;
+    width: 120px;
+    height: 133px;
+    left: 855px;
+    top: 55px;
+    display: none;
+    z-index: 200;
+}
+.nav-focus2{
+	background: #333333;
+    position: absolute;
+    width: 165px;
+    height: 120px;
+    left: 1061px;
+    top: 55px;
+    font-size: 17px;
+    font-family: 楷体;
+    display: none;
+    z-index: 200;
+}
+.nav-focus p,.nav-focus2 p{
+	color: ghostwhite;
+	text-align: center;
+	padding: 6px;
+}
+.nav-focus3{
+	background-color: #131313;
+    position: absolute;
+    width: 100%;
+    height: 227px;
+    left: 0;
+    top: 89px;
+    display: none;
+    z-index: 200;
+}
+.bb{
+	margin: 0 auto;
+    width: 1152px;
+}
+.b1{
+	list-style: none;
+	margin-top: 28px;
+    width: 100%;
+    height: 170px;
+}
+.b1 li{
+	margin: 0 8px;
+    width: 272px;
+    height: 170px;
+    float: left;
+}
+.b1 li a{
+	/*text-decoration: none;*/
+	width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    display: block;
+}
+.icon{
+	width: 272px;
+    height: 128px;
+}
+.name{
+	margin-top: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    text-align: center;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+	min-width: 182px;
+    font-family: 宋体;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 35px;
+    margin: 0px 5px;
+    padding: 0px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    display: inline-block;
+    opacity: 0.2;
+    cursor: pointer;
+}
+.btn1{
+	position: absolute;
+    top:380px;
+    left:406px;
+    border: 1px solid white;
+}
+.btn2{
+	position: absolute;
+    top:380px;
+    left:602px;
+    border: 1px solid white;
+}
+.btn3{
+	position: absolute;
+    top:380px;
+    left:406px;
+    display: none;
+    border: 1px solid gold;
+     color: rgb(54,66,74);
+}
+.btn4{
+	position: absolute;
+    top:380px;
+    left:602px;
+    display: none;
+    color: rgb(54,66,74);
+    opacity: 1;
+    border: 1px solid gold;
+}
+.btn5{
+	position: absolute;
+    top:380px;
+    left:406px;
+    display: none;
+    border: 1px solid gold;
+     color: rgb(54,66,74);
+}
+.btn6{
+	position: absolute;
+    top:380px;
+    left:602px;
+    display: none;
+    color: rgb(54,66,74);
+    opacity: 1;
+    border: 1px solid gold;
+}
+.xiamian{
+	width: 320px;
+	height: 206px;
+	float: left;
+	margin-left: 20px;
+}
+.xiamian img{
+	max-width: 100%;
+}
+.china{
+	position: absolute;
+	top: 820px;
+	left: 24%;
+}
+.video-nav{
+	background-color: black;
+    width: 100%;
+    height: 62px;
+    position: absolute;
+    top: 700px;
+}
+.clearfix{
+	display: block;
+	margin: 0 auto;
+    width: 1199px;
+    border-right: 1px #B2B2B2 dotted;
+	list-style: none;
+	margin-left: 20%;
+}
+.ws{
+	padding-top: 14px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.ws2{
+	font-size: 10px;
+}
+.box{
+	background-color: #959494;
+    color: #000000;
+    width: 196px;
+    height: 62px;
+    border-left: 1px #B2B2B2 dotted;
+    text-align: center;
+    color: #B2B2B2;
+    float: left;
+    cursor: pointer;
+}
+.content{
+	font-family: 宋体;
+	color: whitesmoke;
+	position: absolute;
+    padding-top: 85px;
+    width: 320px;
+    height: 30px;
+    left: 1;
+    top: 1px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.content h2{
+    font-size: 18px;
+    line-height: 30px;
+}
+.content .line{
+	background-color: #FFFFFF;
+    margin: 10px auto;
+    width: 30px;
+    height: 1px;
+}
+.content p{
+    font-size: 14px;
+    }
+    .qq1{
+    	height: 318px;
+    	background: #131313;
+    	position: relative;
+    	top: 1040px;
+    }
+    .qq2{
+    	width: 165px;
+    	float: left;
+    	padding: 70px;
+    	margin-left: 12%;
+    	color:darkgray;
+    	text-align: center;
+    	cursor: pointer;
+    	opacity: 0.5;
+    }
+    .qq3{
+    	cursor: pointer;
+    	width: 165px;
+    	float: left;
+    	padding: 70px;
+    	margin-left:-80px;
+    	color:darkgray;
+    	text-align: center;
+    	opacity: 0.5;
+    }
+    .Qq2{
+    	cursor: pointer;
+    	width: 165px;
+    	float: left;
+    	padding: 70px;
+    	margin-left:-80px;
+    	color:darkgray;
+    	text-align: center;
+    	opacity: 1;
+    }
+    .qq33{
+    margin-top: 20px;
+    opacity: 1;
+    }
+    .title{
+    	font-size: 20px;
+    line-height: 1.5em;
+    }
+    .description{
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    }
+   .btn-block{
+   	margin: 40px auto 0;
+    padding: 5px 20px;
+    font-size: 12px;
+   }
+   .qq4{
+   	float: left;
+   	position: relative;
+   top: 20px;
+   	padding: 70px;
+   }
+   .qq44{
+   	color: white;
+   }
+   .qq444{
+   	color: white;
+   	font-size: 34px;
+   	line-height: 50px;
+   }
+   .qq4444{
+   	font-size: 14px;
+   	color: gray ;
+   }
+   .qq5{
+   	width: 100%;
+   	height: 98px;
+   	background: #171717;
+   	position: relative;
+   	top: 317px;
+   }
+   .qq55{
+   	position: absolute;
+   	left: 12%;
+   	line-height: 100px;
+   	font-size: 12px;
+   	color: gray;
+   	}
+   	.qq555{
+   		margin-left: 10px;
+   	}
+   	/*.qq6{
+   		width: 100%;
+   		height: 25px;
+   		position: relative;
+   		top: 1000px;
+   		left: 0;
+   		background: #171717;
+   	}*/
+   	 .nav {
+    position: fixed;
+    height: 120px;
+    top: 50%;
+    margin-top: -60px;
+    right: 20px;
+    z-index: 9999;
+}
+ .nav .customer {
+    background: url(../img/m4.PNG) no-repeat;
+    margin-top: 10px;
+    width: 56px;
+    height: 60px;
+    display: block;
+}
+ .nav .gotop {
+    background: url(../img/m3.PNG) no-repeat;
+    margin-top:0px;
+    margin-left: 1px;
+    width: 56px;
+    height: 60px;
+    display: block;
+}
+.nav-content{
+	position: absolute;
+    width: 168px;
+    height: 236px;
+    right: 55px;
+    top: -30px;
+    display: none;
+}

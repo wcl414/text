@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: white0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1600px;
+    background: #000000;
+    font-family: 'Microsoft Yahei';
+}
+.header{
+	height: 90px;
+	background: #333333;
+}
+.nav-header{
+	margin-left:16%;
+	width: 1200px;
+	height: 90px;
+}
+.nav-right{
+	font-size: 15px;
+	float: right;
+}
+.nav-right li{
+	list-style: none;
+	padding: 32px;
+	float: left;
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+	color: #B2B2B2;
+}
+.border-btm{
+	position: fixed;
+	top: 87px;
+	overflow: hidden;
+	left: 880px;
+	width: 55px;
+	position: 0.8;
+	border: 1.2px solid ghostwhite;
+}
+.nav-focus{
+	background: #333333;
+    position: absolute;
+    width: 120px;
+    height: 133px;
+    left: 940px;
+    top: 55px;
+    display: none;
+    z-index: 200;
+}
+.nav-focus2{
+	background: #333333;
+    position: absolute;
+    width: 200px;
+    height: 133px;
+    left: 1132px;
+    top: 55px;
+    display: none;
+    z-index: 200;
+}
+.nav-focus p,.nav-focus2 p{
+	color: ghostwhite;
+	text-align: center;
+	padding: 6px;
+}
+.nav-focus3{
+	background-color: #131313;
+    position: absolute;
+    width: 100%;
+    height: 227px;
+    left: 0;
+    top: 89px;
+    display: none;
+    z-index: 200;
+}
+.qq1{
+    	height: 318px;
+    	background: #131313;
+    	position: relative;
+    	margin-left: -116px;
+    }
+    .qq2{
+    	width: 165px;
+    	float: left;
+    	padding: 70px;
+    	margin-left: 12%;
+    	color:darkgray;
+    	text-align: center;
+    	cursor: pointer;
+    	opacity: 0.5;
+    }
+    .qq3{
+    	cursor: pointer;
+    	width: 165px;
+    	float: left;
+    	padding: 70px;
+    	margin-left:-80px;
+    	color:darkgray;
+    	text-align: center;
+    	opacity: 0.5;
+    }
+    .Qq2{
+    	cursor: pointer;
+    	width: 165px;
+    	float: left;
+    	padding: 70px;
+    	margin-left:-80px;
+    	color:darkgray;
+    	text-align: center;
+    	opacity: 1;
+    }
+    .qq33{
+    margin-top: 20px;
+    opacity: 1;
+    }
+    .title{
+    	font-size: 20px;
+    line-height: 1.5em;
+    }
+    .description{
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    }
+   .btn-block{
+   	margin: 40px auto 0;
+    padding: 5px 20px;
+    font-size: 12px;
+   }
+   .qq4{
+   	float: left;
+   	position: relative;
+   top: 20px;
+   	padding: 70px;
+   }
+   .qq44{
+   	color: white;
+   }
+   .qq444{
+   	color: white;
+   	font-size: 34px;
+   	line-height: 50px;
+   }
+   .qq4444{
+   	font-size: 14px;
+   	color: gray ;
+   }
+   .qq5{
+   	width: 100%;
+   	height: 98px;
+   	background: #171717;
+   	position: relative;
+   	top: 317px;
+   }
+   .qq55{
+   	position: absolute;
+   	left: 12%;
+   	line-height: 100px;
+   	font-size: 12px;
+   	color: gray;
+   	}
+   	.qq555{
+   		margin-left: 10px;
+   	}
+   	 .nav {
+    position: fixed;
+    height: 120px;
+    top: 50%;
+    margin-top: -60px;
+    right: 20px;
+    z-index: 9999;
+}
+ .nav .customer {
+    background: url(../img/m4.PNG) no-repeat;
+    margin-top: 10px;
+    width: 56px;
+    height: 60px;
+    display: block;
+}
+ .nav .gotop {
+    background: url(../img/m3.PNG) no-repeat;
+    margin-top:0px;
+    margin-left: 1px;
+    width: 56px;
+    height: 60px;
+    display: block;
+}
+.nav-content{
+	position: absolute;
+    width: 168px;
+    height: 236px;
+    right: 55px;
+    top: -30px;
+    display: none;
+}
+
