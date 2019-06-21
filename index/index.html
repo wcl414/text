@@ -12,24 +12,24 @@
 	<body>
 		<div class='header'>
 			<div class='nav-header'>
-			<img src="img/logo.png" style="width: 150px;height: 89px;"/>
+			<a href="index.html"><img src="img/logo.png" style="width: 150px;height: 89px;"/></a>
 			<ul class='nav-right'>
-				<li class='qq' style="border-bottom: 2px solid white;"><a href="#" style="color: white;" class='ww'>首页</a></li>
-				<li><a href="8848m5.html" class='ww2'>M5</a>
+				<li style="border-bottom: 2px solid white;"><a href="#" style="color: white;" class='head3'>首页</a></li>
+				<li><a href="8848m5.html">M5</a>
 					<div class='nav-focus'>
-			<p><a href="8848m5.html" class='aa'>巅峰/尊享</a></p>
-			<p><a href="http://www.8848phone.com/m5/ruizhi" class='aa'>锐志</a></p>
-			<p><a href="http://www.8848phone.com/m5/elite" class='aa'>精英</a></p>
-			<p><a href="http://www.8848phone.com/xianglong/" class='aa'>祥龙</a></p>
+			<p><a href="8848m5.html" class='head4'>巅峰/尊享</a></p>
+			<p><a href="http://www.8848phone.com/m5/ruizhi" class='head4'>锐志</a></p>
+			<p><a href="http://www.8848phone.com/m5/elite" class='head4'>精英</a></p>
+			<p><a href="http://www.8848phone.com/xianglong/" class='head4'>祥龙</a></p>
 		</div>
 				</li>
 				<li><a href="srdz8848.html">私人定制款</a></li>
 				<li class='ii'><a href="#">配件</a>
 					<div class='nav-focus2'>
-			<p><a href="http://www.8848phone.com/m5/parts_default" class='aa2'>标准版车载支架</a></p>
-			<p><a href="http://www.8848phone.com/m5/parts_dragon" class='aa2'>祥龙版车载支架</a></p>
-			<p><a href="http://www.8848phone.com/m5/parts_wcp" class='aa2'>移动电源</a></p>
-			<p><a href="http://www.8848phone.com/m5/parts_keychain" class='aa2'>钥匙扣</a></p>
+			<p><a href="http://www.8848phone.com/m5/parts_default" class='head5'>标准版车载支架</a></p>
+			<p><a href="http://www.8848phone.com/m5/parts_dragon" class='head5'>祥龙版车载支架</a></p>
+			<p><a href="http://www.8848phone.com/m5/parts_wcp" class='head5'>移动电源</a></p>
+			<p><a href="http://www.8848phone.com/m5/parts_keychain" class='head5'>钥匙扣</a></p>
 		</div>
 				</li>
 				<li><a href="8848dfh.html">巅峰汇</a></li>
@@ -171,6 +171,51 @@
 		<script src="jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			$(function(){
+				$.ajax({
+					type:"get",
+					url:"json.json",
+					async:true,
+					success:function(data){
+						$('.headerhh').css('color','white')
+					$(".headerhh-nav").mouseover(function(){
+						$('.headerhh-nav').css('display','block')
+					})
+					$(".headerhh").mouseout(function(){
+							$('.headerhh').css('display','none')				
+					})
+						$('.headerhh').css('.headerhh')
+					for(i=0;i<$('.headerhh').find('p').length;i++){
+						$('.headerhh-nav').find('.headerhh').mouseover(function(){
+							$(this).find('a').css('color','black')
+							$(this).css('background-color','gray')
+						})
+					}
+					for(i=0;i<$('.headerhh-nav').find('p').length;i++){
+						$('.nav-focus').find('p').mouseout(function(){
+							$(this).find('a').css('color','white')
+							$(this).css('background-color','#333333')
+						})
+					}
+					$.each(data, function() {
+						$(".headerhh").mouseenter(function(){
+						$('.nav-focus2').css('display','block')
+					})
+					});
+					$(".headerhh").mouseenter(function(){
+						$('.nav-focus2').css('display','block')
+					})
+					$(".headerhh").mouseleave(function(){
+						$('.nav-focus2').css('display','none')
+					})
+						$('.headerhh').css('color','white')
+					for(i=0;i<$('.head-nad').find('p').length;i++){
+						$('.head-nad').find('p').mouseover(function(){
+							$(this).find('a').css('color','black')
+							$(this).css('background-color','gray')
+						})
+					}
+					}
+				});
 					$('.qq').css('color','white')
 					$("li:eq(1)").mouseover(function(){
 						$('.nav-focus').css('display','block')
@@ -178,7 +223,7 @@
 					$("li:eq(1)").mouseout(function(){
 							$('.nav-focus').css('display','none')				
 					})
-						$('.aa').css('color','white')
+						$('.head4').css('color','white')
 					for(i=0;i<$('.nav-focus').find('p').length;i++){
 						$('.nav-focus').find('p').mouseover(function(){
 							$(this).find('a').css('color','black')
@@ -197,7 +242,7 @@
 					$(".ii").mouseleave(function(){
 						$('.nav-focus2').css('display','none')
 					})
-						$('.aa2').css('color','white')
+						$('.head5').css('color','white')
 					for(i=0;i<$('.nav-focus2').find('p').length;i++){
 						$('.nav-focus2').find('p').mouseover(function(){
 							$(this).find('a').css('color','black')
@@ -425,7 +470,7 @@
 					$('.btn6').click(function(){
 						window.open("xinxi.html");
 					})
-					$('.ww').click(function(){
+					$('.head3').click(function(){
 					window.open("index.html")	
 					})
 					$('.gotop').click(function(){
